@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: my_source
+    database: wf_activities
+    schema: wf_activities.dbt_schema_activities
+    tables:
+      - name: original_table
